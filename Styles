@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Styles</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<link rel="icon" href="meta auuuughcon.webp" type="image">
+
+<body>
+    <div class="header"> <div class="logo">
+       <a href="index.html" ><img src="Meta-Logo.png" width="120" length="120"> </a>
+        </div> </div>
+    
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+      
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
+
+      <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+          <li><a href="index.html" >Overview</a> </li>
+          <li><a href="styles.html" target="_blank">Styles</a></li>
+          <li><a href="#prod">Product Details <span>Framework</span> <span>Lenses</span> <span>Electronics</span> </a></li>
+        </ul>
+      </div>
+</body>
+</html>
